@@ -4,6 +4,16 @@
 The DNS OSINT Recon Tool is a Python-based reconnaissance tool that performs passive DNS enumeration using a customizable subdomain wordlist. It discovers publicly accessible subdomains, retrieves their IPv4 (A) records, and performs reverse DNS lookups to gather additional information about the discovered hosts.
 This project was developed to strengthen Python programming skills while learning reconnaissance techniques commonly used in cybersecurity.
 
+## Example Output
+
+### Scan Results
+
+![Scan Results](screenshots/output.png)
+
+### Scan Summary
+
+![Scan Summary](screenshots/summary.png)
+
 ## Features
 
 - Performs DNS A record lookups for discovered subdomains.
